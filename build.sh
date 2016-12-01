@@ -14,5 +14,7 @@ export PREFIX=./x264_android
 	--cross-prefix=$PREBUILT/linux-x86/bin/arm-linux-androideabi- \
 	--sysroot=$PLATFORM
 
+make
 
+make install
 
